@@ -1,0 +1,130 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* SECTION */ 
+
+section {
+  max-width: 50%;
+  margin: auto;
+  height: 100%;
+}
+
+/* MENU */ 
+
+#menu {
+  display: none;
+  width: 50%;
+  position: fixed;
+  z-index: 50;
+  box-sizing: border-box;
+  border: black solid 1px;
+}
+
+#menubar {
+  width: 100%;
+  box-sizing: border-box;
+  border: black solid 1px;
+  background: #ECE9D8;
+  height: 8%;
+}
+
+#displaymenu {
+  background: none;
+  border: none;
+  height: 100%;
+}
+
+#displaymenu:hover {
+  background: #CECCBD;
+}
+
+/* MAINBAR */
+
+#mainbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 15%;
+  min-height:10%;
+  background: #C0C0C0;
+  border: #ACACAC solid 0.3em;
+  box-sizing: border-box;
+}
+
+.infobox {
+  width: 30%;
+}
+
+#mainbar > div {
+  display: inline-block;
+  height: 80%;
+  padding: 0%;
+  background: black;
+  position: absolute;
+  top: 10%;
+  color: red;
+  text-align: center;
+  font-size: 15px;
+  margin: auto;
+}
+
+#flagleft{
+  left: 5%;
+}
+
+#flagleft > p{ 
+  height: 100%;
+  line-height: 100%;
+  margin: auto;
+}
+
+#time {
+  right: 5%;
+}
+
+#smile {
+  width: 20%;
+  left: 40%;
+}
+
+/* board */
+
+#board {
+  width: 100%;
+  height: 78%;
+  background: #959595;
+  border: #ACACAC solid 0.3em;
+  box-sizing: border-box;
+}
+
+.row {
+  height: 10%;
+  box-sizing: border-box;
+}
+
+.cell {
+  height: 100%;
+  width: 10%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: white solid 1px;
+  vertical-align: middle;
+  font-size: 7px;
+  text-align: center;
+}
+
+.cell:hover {
+  background: grey;
+}
+
+.flag {
+  background-image: url("media/flag.png");
+  background-size: 100% 100%;
+  
+}
